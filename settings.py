@@ -1,9 +1,11 @@
+DATABASE_ENGINE = 'sqlite3'           # 'postgresql_psycopg2', 'postgresql', 'mysql', 'sqlite3' or 'ado_mssql'.
+DATABASE_NAME = 'oebfare.db'             # Or path to database file if using sqlite3.
 
 import os
 
 PROJECT_ROOT = os.path.dirname(__file__)
 
-LOCAL_DEVELOPMENT = False
+LOCAL_DEVELOPMENT = True
 
 DEBUG = False
 TEMPLATE_DEBUG = DEBUG
